@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de usuario</title>
+    </head>
+    <body>
+
+        <h1>Registro de usuario</h1>
+
+        <form action="register.php" method="post">
+            <label>Nombre de usuario:</label><br>
+            <input type="text" name="username" placeholder="Nombre de usuario"><br>
+            <label>Contraseña:</label><br>
+            <input type="password" name="password" placeholder="Contraseña"><br>
+            <label>Edad:</label><br>
+            <input type="number" max="120" min="1" name="age" placeholder="Edad"><br>
+            <label>Fecha de Nacimiento:</label><br>
+            <input type="date" name="date"><br>
+            <label>Sexo:</label><br>
+            <label for='sexo1'>
+                <input type="radio" id="sexo1" name="gender" value="male"> Masculino
+            </label><br>
+            <label for='sexo2'>
+                <input type="radio" id="sexo2" name="gender" value="female"> Femenino
+            </label><br>
+            <label for='sexo3'>
+                <input type="radio" id="sexo3" name="gender" value="unknown"> Prefiero no decir
+            </label><br>
+            <label>País de Orgien:</label><br>
+            <select name="country">
+                <option value="AR">Argentina</option>
+                <option value="CD">Canada</option>
+                <option value="MX">Mexico</option>
+                <option value="BR">Brazil</option>
+            </select><br>
+            <input type="submit" value="Aceptar"><input type="reset" value="Borrar"><br>
+        </form>
+
+    </body>
+</html>
