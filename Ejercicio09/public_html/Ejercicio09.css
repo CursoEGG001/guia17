@@ -42,18 +42,15 @@ a:hover
     color: red;
 }
 
-.destacado
-{
-    color: blueviolet;
-}
 
 table
 {
-    color: red;
+    color: orange;
 
-border: 1px solid black;
-border-style: solid;
-border-width: 1px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-style: solid;
+    border-width: 1px;
 
 }
 
@@ -62,6 +59,16 @@ table.destacado
     color: orange;
 }
 
+th
+{
+    border: 1px black solid;
+    color: red;
+}
+
+th.especial
+{
+    color: goldenrod;
+}
 tr
 {
     color: green;
@@ -72,6 +79,16 @@ td
 {
     color: green;
     border: 1px  black solid;
+}
+
+td>strong
+{
+    color: darkgoldenrod;
+}
+
+td>em
+{
+    color: green
 }
 
 td.destacado
@@ -86,15 +103,40 @@ td.especial
 
 .especial
 {
-    color: orange;
+    color:blueviolet;
 }
 
+span
+{
+    color: #ff9933
+}
 span.destacado
 {
     color: orange;
 }
 
+p>span
+{
+    color: darkolivegreen;
+}
+
 caption
 {
     color: whitesmoke;
+}
+
+#adicional
+{
+    color: darkolivegreen
+
+}
+
+#especial
+{
+    color: violet;
+}
+
+#adicional>p>a
+{
+    color: green;
 }
