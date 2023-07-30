@@ -1,0 +1,68 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 29 jul 2023, 21:11:23
+    Author     : pc
+*/
+
+table
+{
+    border-collapse: collapse;
+    border: 1px black solid;
+}
+
+tr
+{
+    border: 1px black solid;
+    background-color: lightgoldenrodyellow;
+}
+
+tr.yenes
+{
+
+    background-color:white;
+}
+
+tr.euroyenes
+{
+
+    background-color:white;
+}
+
+th
+{
+    border: 1px black solid;
+    text-align: center;
+    font: bold normal sans-serif;
+    background-color: lightgray
+}
+
+th.euros
+{
+
+    background-color: lightcyan;
+}
+th.euroyenes
+{
+
+    background-color: lightcyan;
+}
+th.libras
+{
+
+    background-color: lightcyan;
+}
+th.yenes
+{
+    ;
+    background-color: lightcyan;
+}
+
+td
+{
+    border: 1px black solid;
+    
+}
+
